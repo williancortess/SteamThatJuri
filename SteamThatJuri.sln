@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamThatJuri.Plugins", "SteamThatJuri.Plugins.csproj", "{97ADC214-6A3D-DE0E-3C91-B64550266610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamThatJuri", "SteamThatJuri.csproj", "{8314423C-2352-D683-696F-42DF98448F51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamThatJuri.Editor", "SteamThatJuri.Editor.csproj", "{3F8983D6-E03F-69C2-FE37-08B826FB8605}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97ADC214-6A3D-DE0E-3C91-B64550266610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97ADC214-6A3D-DE0E-3C91-B64550266610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97ADC214-6A3D-DE0E-3C91-B64550266610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97ADC214-6A3D-DE0E-3C91-B64550266610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8314423C-2352-D683-696F-42DF98448F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8314423C-2352-D683-696F-42DF98448F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8314423C-2352-D683-696F-42DF98448F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8314423C-2352-D683-696F-42DF98448F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F8983D6-E03F-69C2-FE37-08B826FB8605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8983D6-E03F-69C2-FE37-08B826FB8605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8983D6-E03F-69C2-FE37-08B826FB8605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8983D6-E03F-69C2-FE37-08B826FB8605}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

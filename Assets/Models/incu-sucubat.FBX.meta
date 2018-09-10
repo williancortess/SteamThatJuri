@@ -1,0 +1,1005 @@
+fileFormatVersion: 2
+guid: ab460f8bafa42104cb3b02c2623b9719
+timeCreated: 1498082885
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: asa_direct
+    100002: asaL00
+    100004: asaL01
+    100006: asaL02
+    100008: asaL03
+    100010: asaL04
+    100012: asaR00
+    100014: asaR01
+    100016: asaR02
+    100018: asaR03
+    100020: asaR04
+    100022: asas_angulo
+    100024: bat_body
+    100026: Bone001
+    100028: Bone002
+    100030: centro_massa
+    100032: Crowd002
+    100034: Espinha00
+    100036: Espinha01
+    100038: Espinha02
+    100040: Espinha03
+    100042: Espinha04
+    100044: Espinha05
+    100046: Espinha06
+    100048: eye_O
+    100050: eye_X
+    100052: eyeO_Scaler
+    100054: eyeX_Scaler
+    100056: IK_asaL
+    100058: IK_asaR
+    100060: IK_subasaL
+    100062: IK_subasaR
+    100064: IK_tail
+    100066: //RootNode
+    100068: pointy
+    100070: Sphere001
+    100072: sting
+    100074: sting_and_flail
+    100076: sting_controller
+    100078: sub-asaL00
+    100080: sub-asaL01
+    100082: sub-asaL02
+    100084: sub-asaL03
+    100086: sub-asaL04
+    100088: sub-asaR00
+    100090: sub-asaR01
+    100092: sub-asaR02
+    100094: sub-asaR03
+    100096: sub-asaR04
+    100098: sub_wings
+    100100: subasa_direct
+    100102: subasas_angulo
+    100104: the floor is here!
+    400000: asa_direct
+    400002: asaL00
+    400004: asaL01
+    400006: asaL02
+    400008: asaL03
+    400010: asaL04
+    400012: asaR00
+    400014: asaR01
+    400016: asaR02
+    400018: asaR03
+    400020: asaR04
+    400022: asas_angulo
+    400024: bat_body
+    400026: Bone001
+    400028: Bone002
+    400030: centro_massa
+    400032: Crowd002
+    400034: Espinha00
+    400036: Espinha01
+    400038: Espinha02
+    400040: Espinha03
+    400042: Espinha04
+    400044: Espinha05
+    400046: Espinha06
+    400048: eye_O
+    400050: eye_X
+    400052: eyeO_Scaler
+    400054: eyeX_Scaler
+    400056: IK_asaL
+    400058: IK_asaR
+    400060: IK_subasaL
+    400062: IK_subasaR
+    400064: IK_tail
+    400066: //RootNode
+    400068: pointy
+    400070: Sphere001
+    400072: sting
+    400074: sting_and_flail
+    400076: sting_controller
+    400078: sub-asaL00
+    400080: sub-asaL01
+    400082: sub-asaL02
+    400084: sub-asaL03
+    400086: sub-asaL04
+    400088: sub-asaR00
+    400090: sub-asaR01
+    400092: sub-asaR02
+    400094: sub-asaR03
+    400096: sub-asaR04
+    400098: sub_wings
+    400100: subasa_direct
+    400102: subasas_angulo
+    400104: the floor is here!
+    2300000: Sphere001
+    2300002: sting
+    2300004: the floor is here!
+    3300000: Sphere001
+    3300002: sting
+    3300004: the floor is here!
+    4300000: bat_body
+    4300002: sub_wings
+    4300004: sting
+    4300006: Sphere001
+    4300008: eye_O
+    4300010: eye_X
+    4300012: the floor is here!
+    7400000: Idle
+    7400002: Walk
+    7400004: Shoot
+    7400006: Damage
+    7400008: Death
+    7400010: Attack
+    9500000: //RootNode
+    13700000: bat_body
+    13700002: eye_O
+    13700004: eye_X
+    13700006: sub_wings
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bat_body
+        weight: 1
+      - path: bat_body/eye_O
+        weight: 1
+      - path: bat_body/eye_X
+        weight: 1
+      - path: bat_body/Sphere001
+        weight: 1
+      - path: bat_body/sting
+        weight: 1
+      - path: bat_body/sub_wings
+        weight: 1
+      - path: centro_massa
+        weight: 1
+      - path: centro_massa/asas_angulo
+        weight: 1
+      - path: centro_massa/asas_angulo/asa_direct
+        weight: 1
+      - path: centro_massa/asas_angulo/asa_direct/IK_asaL
+        weight: 1
+      - path: centro_massa/asas_angulo/asa_direct/IK_asaR
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01/asaL02
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01/asaL02/asaL03
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01/asaL02/asaL03/asaL04
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01/asaR02
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01/asaR02/asaR03
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01/asaR02/asaR03/asaR04
+        weight: 1
+      - path: centro_massa/Espinha00
+        weight: 1
+      - path: centro_massa/Espinha00/Bone001
+        weight: 1
+      - path: centro_massa/Espinha00/Bone001/Bone002
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03/Espinha04
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03/Espinha04/Espinha05
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03/Espinha04/Espinha05/Espinha06
+        weight: 1
+      - path: centro_massa/Espinha00/eyeO_Scaler
+        weight: 1
+      - path: centro_massa/Espinha00/eyeX_Scaler
+        weight: 1
+      - path: centro_massa/pointy
+        weight: 1
+      - path: centro_massa/sub-asaL00
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01/sub-asaL02
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01/sub-asaL02/sub-asaL03
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01/sub-asaL02/sub-asaL03/sub-asaL04
+        weight: 1
+      - path: centro_massa/sub-asaR00
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01/sub-asaR02
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01/sub-asaR02/sub-asaR03
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01/sub-asaR02/sub-asaR03/sub-asaR04
+        weight: 1
+      - path: centro_massa/subasas_angulo
+        weight: 1
+      - path: centro_massa/subasas_angulo/subasa_direct
+        weight: 1
+      - path: centro_massa/subasas_angulo/subasa_direct/IK_subasaL
+        weight: 1
+      - path: centro_massa/subasas_angulo/subasa_direct/IK_subasaR
+        weight: 1
+      - path: Crowd002
+        weight: 1
+      - path: Crowd002/IK_tail
+        weight: 1
+      - path: sting_controller
+        weight: 1
+      - path: sting_controller/sting_and_flail
+        weight: 1
+      - path: the floor is here!
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bat_body
+        weight: 1
+      - path: bat_body/eye_O
+        weight: 1
+      - path: bat_body/eye_X
+        weight: 1
+      - path: bat_body/Sphere001
+        weight: 1
+      - path: bat_body/sting
+        weight: 1
+      - path: bat_body/sub_wings
+        weight: 1
+      - path: centro_massa
+        weight: 1
+      - path: centro_massa/asas_angulo
+        weight: 1
+      - path: centro_massa/asas_angulo/asa_direct
+        weight: 1
+      - path: centro_massa/asas_angulo/asa_direct/IK_asaL
+        weight: 1
+      - path: centro_massa/asas_angulo/asa_direct/IK_asaR
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01/asaL02
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01/asaL02/asaL03
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01/asaL02/asaL03/asaL04
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01/asaR02
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01/asaR02/asaR03
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01/asaR02/asaR03/asaR04
+        weight: 1
+      - path: centro_massa/Espinha00
+        weight: 1
+      - path: centro_massa/Espinha00/Bone001
+        weight: 1
+      - path: centro_massa/Espinha00/Bone001/Bone002
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03/Espinha04
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03/Espinha04/Espinha05
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03/Espinha04/Espinha05/Espinha06
+        weight: 1
+      - path: centro_massa/Espinha00/eyeO_Scaler
+        weight: 1
+      - path: centro_massa/Espinha00/eyeX_Scaler
+        weight: 1
+      - path: centro_massa/pointy
+        weight: 1
+      - path: centro_massa/sub-asaL00
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01/sub-asaL02
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01/sub-asaL02/sub-asaL03
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01/sub-asaL02/sub-asaL03/sub-asaL04
+        weight: 1
+      - path: centro_massa/sub-asaR00
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01/sub-asaR02
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01/sub-asaR02/sub-asaR03
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01/sub-asaR02/sub-asaR03/sub-asaR04
+        weight: 1
+      - path: centro_massa/subasas_angulo
+        weight: 1
+      - path: centro_massa/subasas_angulo/subasa_direct
+        weight: 1
+      - path: centro_massa/subasas_angulo/subasa_direct/IK_subasaL
+        weight: 1
+      - path: centro_massa/subasas_angulo/subasa_direct/IK_subasaR
+        weight: 1
+      - path: Crowd002
+        weight: 1
+      - path: Crowd002/IK_tail
+        weight: 1
+      - path: sting_controller
+        weight: 1
+      - path: sting_controller/sting_and_flail
+        weight: 1
+      - path: the floor is here!
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Shoot
+      takeName: Take 001
+      firstFrame: 90
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 5
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bat_body
+        weight: 1
+      - path: bat_body/eye_O
+        weight: 1
+      - path: bat_body/eye_X
+        weight: 1
+      - path: bat_body/Sphere001
+        weight: 1
+      - path: bat_body/sting
+        weight: 1
+      - path: bat_body/sub_wings
+        weight: 1
+      - path: centro_massa
+        weight: 1
+      - path: centro_massa/asas_angulo
+        weight: 1
+      - path: centro_massa/asas_angulo/asa_direct
+        weight: 1
+      - path: centro_massa/asas_angulo/asa_direct/IK_asaL
+        weight: 1
+      - path: centro_massa/asas_angulo/asa_direct/IK_asaR
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01/asaL02
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01/asaL02/asaL03
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01/asaL02/asaL03/asaL04
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01/asaR02
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01/asaR02/asaR03
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01/asaR02/asaR03/asaR04
+        weight: 1
+      - path: centro_massa/Espinha00
+        weight: 1
+      - path: centro_massa/Espinha00/Bone001
+        weight: 1
+      - path: centro_massa/Espinha00/Bone001/Bone002
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03/Espinha04
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03/Espinha04/Espinha05
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03/Espinha04/Espinha05/Espinha06
+        weight: 1
+      - path: centro_massa/Espinha00/eyeO_Scaler
+        weight: 1
+      - path: centro_massa/Espinha00/eyeX_Scaler
+        weight: 1
+      - path: centro_massa/pointy
+        weight: 1
+      - path: centro_massa/sub-asaL00
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01/sub-asaL02
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01/sub-asaL02/sub-asaL03
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01/sub-asaL02/sub-asaL03/sub-asaL04
+        weight: 1
+      - path: centro_massa/sub-asaR00
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01/sub-asaR02
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01/sub-asaR02/sub-asaR03
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01/sub-asaR02/sub-asaR03/sub-asaR04
+        weight: 1
+      - path: centro_massa/subasas_angulo
+        weight: 1
+      - path: centro_massa/subasas_angulo/subasa_direct
+        weight: 1
+      - path: centro_massa/subasas_angulo/subasa_direct/IK_subasaL
+        weight: 1
+      - path: centro_massa/subasas_angulo/subasa_direct/IK_subasaR
+        weight: 1
+      - path: Crowd002
+        weight: 1
+      - path: Crowd002/IK_tail
+        weight: 1
+      - path: sting_controller
+        weight: 1
+      - path: sting_controller/sting_and_flail
+        weight: 1
+      - path: the floor is here!
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Damage
+      takeName: Take 001
+      firstFrame: 130
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bat_body
+        weight: 1
+      - path: bat_body/eye_O
+        weight: 1
+      - path: bat_body/eye_X
+        weight: 1
+      - path: bat_body/Sphere001
+        weight: 1
+      - path: bat_body/sting
+        weight: 1
+      - path: bat_body/sub_wings
+        weight: 1
+      - path: centro_massa
+        weight: 1
+      - path: centro_massa/asas_angulo
+        weight: 1
+      - path: centro_massa/asas_angulo/asa_direct
+        weight: 1
+      - path: centro_massa/asas_angulo/asa_direct/IK_asaL
+        weight: 1
+      - path: centro_massa/asas_angulo/asa_direct/IK_asaR
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01/asaL02
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01/asaL02/asaL03
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01/asaL02/asaL03/asaL04
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01/asaR02
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01/asaR02/asaR03
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01/asaR02/asaR03/asaR04
+        weight: 1
+      - path: centro_massa/Espinha00
+        weight: 1
+      - path: centro_massa/Espinha00/Bone001
+        weight: 1
+      - path: centro_massa/Espinha00/Bone001/Bone002
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03/Espinha04
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03/Espinha04/Espinha05
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03/Espinha04/Espinha05/Espinha06
+        weight: 1
+      - path: centro_massa/Espinha00/eyeO_Scaler
+        weight: 1
+      - path: centro_massa/Espinha00/eyeX_Scaler
+        weight: 1
+      - path: centro_massa/pointy
+        weight: 1
+      - path: centro_massa/sub-asaL00
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01/sub-asaL02
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01/sub-asaL02/sub-asaL03
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01/sub-asaL02/sub-asaL03/sub-asaL04
+        weight: 1
+      - path: centro_massa/sub-asaR00
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01/sub-asaR02
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01/sub-asaR02/sub-asaR03
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01/sub-asaR02/sub-asaR03/sub-asaR04
+        weight: 1
+      - path: centro_massa/subasas_angulo
+        weight: 1
+      - path: centro_massa/subasas_angulo/subasa_direct
+        weight: 1
+      - path: centro_massa/subasas_angulo/subasa_direct/IK_subasaL
+        weight: 1
+      - path: centro_massa/subasas_angulo/subasa_direct/IK_subasaR
+        weight: 1
+      - path: Crowd002
+        weight: 1
+      - path: Crowd002/IK_tail
+        weight: 1
+      - path: sting_controller
+        weight: 1
+      - path: sting_controller/sting_and_flail
+        weight: 1
+      - path: the floor is here!
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 170
+      lastFrame: 210
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bat_body
+        weight: 1
+      - path: bat_body/eye_O
+        weight: 1
+      - path: bat_body/eye_X
+        weight: 1
+      - path: bat_body/Sphere001
+        weight: 1
+      - path: bat_body/sting
+        weight: 1
+      - path: bat_body/sub_wings
+        weight: 1
+      - path: centro_massa
+        weight: 1
+      - path: centro_massa/asas_angulo
+        weight: 1
+      - path: centro_massa/asas_angulo/asa_direct
+        weight: 1
+      - path: centro_massa/asas_angulo/asa_direct/IK_asaL
+        weight: 1
+      - path: centro_massa/asas_angulo/asa_direct/IK_asaR
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01/asaL02
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01/asaL02/asaL03
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01/asaL02/asaL03/asaL04
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01/asaR02
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01/asaR02/asaR03
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01/asaR02/asaR03/asaR04
+        weight: 1
+      - path: centro_massa/Espinha00
+        weight: 1
+      - path: centro_massa/Espinha00/Bone001
+        weight: 1
+      - path: centro_massa/Espinha00/Bone001/Bone002
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03/Espinha04
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03/Espinha04/Espinha05
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03/Espinha04/Espinha05/Espinha06
+        weight: 1
+      - path: centro_massa/Espinha00/eyeO_Scaler
+        weight: 1
+      - path: centro_massa/Espinha00/eyeX_Scaler
+        weight: 1
+      - path: centro_massa/pointy
+        weight: 1
+      - path: centro_massa/sub-asaL00
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01/sub-asaL02
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01/sub-asaL02/sub-asaL03
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01/sub-asaL02/sub-asaL03/sub-asaL04
+        weight: 1
+      - path: centro_massa/sub-asaR00
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01/sub-asaR02
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01/sub-asaR02/sub-asaR03
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01/sub-asaR02/sub-asaR03/sub-asaR04
+        weight: 1
+      - path: centro_massa/subasas_angulo
+        weight: 1
+      - path: centro_massa/subasas_angulo/subasa_direct
+        weight: 1
+      - path: centro_massa/subasas_angulo/subasa_direct/IK_subasaL
+        weight: 1
+      - path: centro_massa/subasas_angulo/subasa_direct/IK_subasaR
+        weight: 1
+      - path: Crowd002
+        weight: 1
+      - path: Crowd002/IK_tail
+        weight: 1
+      - path: sting_controller
+        weight: 1
+      - path: sting_controller/sting_and_flail
+        weight: 1
+      - path: the floor is here!
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 220
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bat_body
+        weight: 1
+      - path: bat_body/eye_O
+        weight: 1
+      - path: bat_body/eye_X
+        weight: 1
+      - path: bat_body/Sphere001
+        weight: 1
+      - path: bat_body/sting
+        weight: 1
+      - path: bat_body/sub_wings
+        weight: 1
+      - path: centro_massa
+        weight: 1
+      - path: centro_massa/asas_angulo
+        weight: 1
+      - path: centro_massa/asas_angulo/asa_direct
+        weight: 1
+      - path: centro_massa/asas_angulo/asa_direct/IK_asaL
+        weight: 1
+      - path: centro_massa/asas_angulo/asa_direct/IK_asaR
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01/asaL02
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01/asaL02/asaL03
+        weight: 1
+      - path: centro_massa/asas_angulo/asaL00/asaL01/asaL02/asaL03/asaL04
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01/asaR02
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01/asaR02/asaR03
+        weight: 1
+      - path: centro_massa/asas_angulo/asaR00/asaR01/asaR02/asaR03/asaR04
+        weight: 1
+      - path: centro_massa/Espinha00
+        weight: 1
+      - path: centro_massa/Espinha00/Bone001
+        weight: 1
+      - path: centro_massa/Espinha00/Bone001/Bone002
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03/Espinha04
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03/Espinha04/Espinha05
+        weight: 1
+      - path: centro_massa/Espinha00/Espinha01/Espinha02/Espinha03/Espinha04/Espinha05/Espinha06
+        weight: 1
+      - path: centro_massa/Espinha00/eyeO_Scaler
+        weight: 1
+      - path: centro_massa/Espinha00/eyeX_Scaler
+        weight: 1
+      - path: centro_massa/pointy
+        weight: 1
+      - path: centro_massa/sub-asaL00
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01/sub-asaL02
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01/sub-asaL02/sub-asaL03
+        weight: 1
+      - path: centro_massa/sub-asaL00/sub-asaL01/sub-asaL02/sub-asaL03/sub-asaL04
+        weight: 1
+      - path: centro_massa/sub-asaR00
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01/sub-asaR02
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01/sub-asaR02/sub-asaR03
+        weight: 1
+      - path: centro_massa/sub-asaR00/sub-asaR01/sub-asaR02/sub-asaR03/sub-asaR04
+        weight: 1
+      - path: centro_massa/subasas_angulo
+        weight: 1
+      - path: centro_massa/subasas_angulo/subasa_direct
+        weight: 1
+      - path: centro_massa/subasas_angulo/subasa_direct/IK_subasaL
+        weight: 1
+      - path: centro_massa/subasas_angulo/subasa_direct/IK_subasaR
+        weight: 1
+      - path: Crowd002
+        weight: 1
+      - path: Crowd002/IK_tail
+        weight: 1
+      - path: sting_controller
+        weight: 1
+      - path: sting_controller/sting_and_flail
+        weight: 1
+      - path: the floor is here!
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2068 @@
+fileFormatVersion: 2
+guid: 64fc0cd4dc6b378429ba6edbe7995fe8
+timeCreated: 1496351914
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: anelarL00
+    100002: anelarL01
+    100004: anelarL02
+    100006: anelarR00
+    100008: anelarR01
+    100010: anelarR02
+    100012: avental
+    100014: bowDown
+    100016: bowUp
+    100018: bracoL00
+    100020: bracoL01
+    100022: bracoL02
+    100024: bracoL03
+    100026: bracoR00
+    100028: bracoR01
+    100030: bracoR02
+    100032: bracoR03
+    100034: c_vertebral00
+    100036: c_vertebral01
+    100038: c_vertebral02
+    100040: c_vertebral03
+    100042: c_vertebral04
+    100044: c_vertebral05
+    100046: centro_massa
+    100048: controle_anelarL
+    100050: controle_anelarR
+    100052: controle_bracoL
+    100054: controle_bracoR
+    100056: controle_dedoMeioL
+    100058: controle_dedoMeioR
+    100060: controle_IndicadorL
+    100062: controle_IndicadorR
+    100064: controle_mindinhoL
+    100066: controle_mindinhoR
+    100068: controle_peL
+    100070: controle_peR
+    100072: controle_pernaL
+    100074: controle_pernaR
+    100076: controle_polegarL
+    100078: controle_polegarR
+    100080: controle_ponytail
+    100082: dedo_meioL00
+    100084: dedo_meioL01
+    100086: dedo_meioL02
+    100088: dedo_meioR00
+    100090: dedo_meioR01
+    100092: dedo_meioR02
+    100094: dedosL
+    100096: dedosR
+    100098: franja
+    100100: franjaB
+    100102: IK_anelarL
+    100104: IK_anelarR
+    100106: IK_ArmL
+    100108: IK_ArmR
+    100110: IK_dedoMeioL
+    100112: IK_dedoMeioR
+    100114: IK_FootL
+    100116: IK_FootR
+    100118: IK_IndicadorL
+    100120: IK_IndicadorR
+    100122: IK_LegL
+    100124: IK_LegR
+    100126: IK_mindinhoL
+    100128: IK_mindinhoR
+    100130: IK_polegarL
+    100132: IK_polegarR
+    100134: IK_ponytail
+    100136: indicadorL00
+    100138: indicadorL01
+    100140: indicadorL02
+    100142: indicadorR00
+    100144: indicadorR01
+    100146: indicadorR02
+    100148: //RootNode
+    100150: Juri_modelo
+    100152: mindinhoL00
+    100154: mindinhoL01
+    100156: mindinhoL02
+    100158: mindinhoR00
+    100160: mindinhoR01
+    100162: mindinhoR02
+    100164: path_anelarL
+    100166: path_anelarR
+    100168: path_indicadorL
+    100170: path_indicadorR
+    100172: path_meioL
+    100174: path_meioR
+    100176: path_mindinho
+    100178: path_mindinhoR
+    100180: pelvis
+    100182: pernaL00
+    100184: pernaL01
+    100186: pernaL02
+    100188: pernaL03
+    100190: pernaL04
+    100192: pernaR00
+    100194: pernaR01
+    100196: pernaR02
+    100198: pernaR03
+    100200: pernaR04
+    100202: polegarL00
+    100204: polegarL01
+    100206: polegarL02
+    100208: polegarR00
+    100210: polegarR01
+    100212: polegarR02
+    100214: Ponto_Contato
+    100216: ponytail00
+    100218: ponytail01
+    100220: ponytail02
+    100222: ponytail03
+    100224: ponytail04
+    100226: ponytail05
+    100228: porca
+    100230: posicao_cabeca
+    100232: toco_anelarL03
+    100234: toco_anelarR03
+    100236: toco_dedo_meioL03
+    100238: toco_dedo_meioR03
+    100240: toco_indicadorL03
+    100242: toco_maoL
+    100244: toco_maoR
+    100246: toco_mindinhoL03
+    100248: toco_mindinhoR03
+    100250: toco_pelvis
+    100252: toco_polegar
+    100254: toco_polegarR
+    100256: toco_ponytail06
+    100258: toco_toco_indicadorR
+    400000: anelarL00
+    400002: anelarL01
+    400004: anelarL02
+    400006: anelarR00
+    400008: anelarR01
+    400010: anelarR02
+    400012: avental
+    400014: bowDown
+    400016: bowUp
+    400018: bracoL00
+    400020: bracoL01
+    400022: bracoL02
+    400024: bracoL03
+    400026: bracoR00
+    400028: bracoR01
+    400030: bracoR02
+    400032: bracoR03
+    400034: c_vertebral00
+    400036: c_vertebral01
+    400038: c_vertebral02
+    400040: c_vertebral03
+    400042: c_vertebral04
+    400044: c_vertebral05
+    400046: centro_massa
+    400048: controle_anelarL
+    400050: controle_anelarR
+    400052: controle_bracoL
+    400054: controle_bracoR
+    400056: controle_dedoMeioL
+    400058: controle_dedoMeioR
+    400060: controle_IndicadorL
+    400062: controle_IndicadorR
+    400064: controle_mindinhoL
+    400066: controle_mindinhoR
+    400068: controle_peL
+    400070: controle_peR
+    400072: controle_pernaL
+    400074: controle_pernaR
+    400076: controle_polegarL
+    400078: controle_polegarR
+    400080: controle_ponytail
+    400082: dedo_meioL00
+    400084: dedo_meioL01
+    400086: dedo_meioL02
+    400088: dedo_meioR00
+    400090: dedo_meioR01
+    400092: dedo_meioR02
+    400094: dedosL
+    400096: dedosR
+    400098: franja
+    400100: franjaB
+    400102: IK_anelarL
+    400104: IK_anelarR
+    400106: IK_ArmL
+    400108: IK_ArmR
+    400110: IK_dedoMeioL
+    400112: IK_dedoMeioR
+    400114: IK_FootL
+    400116: IK_FootR
+    400118: IK_IndicadorL
+    400120: IK_IndicadorR
+    400122: IK_LegL
+    400124: IK_LegR
+    400126: IK_mindinhoL
+    400128: IK_mindinhoR
+    400130: IK_polegarL
+    400132: IK_polegarR
+    400134: IK_ponytail
+    400136: indicadorL00
+    400138: indicadorL01
+    400140: indicadorL02
+    400142: indicadorR00
+    400144: indicadorR01
+    400146: indicadorR02
+    400148: //RootNode
+    400150: Juri_modelo
+    400152: mindinhoL00
+    400154: mindinhoL01
+    400156: mindinhoL02
+    400158: mindinhoR00
+    400160: mindinhoR01
+    400162: mindinhoR02
+    400164: path_anelarL
+    400166: path_anelarR
+    400168: path_indicadorL
+    400170: path_indicadorR
+    400172: path_meioL
+    400174: path_meioR
+    400176: path_mindinho
+    400178: path_mindinhoR
+    400180: pelvis
+    400182: pernaL00
+    400184: pernaL01
+    400186: pernaL02
+    400188: pernaL03
+    400190: pernaL04
+    400192: pernaR00
+    400194: pernaR01
+    400196: pernaR02
+    400198: pernaR03
+    400200: pernaR04
+    400202: polegarL00
+    400204: polegarL01
+    400206: polegarL02
+    400208: polegarR00
+    400210: polegarR01
+    400212: polegarR02
+    400214: Ponto_Contato
+    400216: ponytail00
+    400218: ponytail01
+    400220: ponytail02
+    400222: ponytail03
+    400224: ponytail04
+    400226: ponytail05
+    400228: porca
+    400230: posicao_cabeca
+    400232: toco_anelarL03
+    400234: toco_anelarR03
+    400236: toco_dedo_meioL03
+    400238: toco_dedo_meioR03
+    400240: toco_indicadorL03
+    400242: toco_maoL
+    400244: toco_maoR
+    400246: toco_mindinhoL03
+    400248: toco_mindinhoR03
+    400250: toco_pelvis
+    400252: toco_polegar
+    400254: toco_polegarR
+    400256: toco_ponytail06
+    400258: toco_toco_indicadorR
+    4300000: Juri_modelo
+    7400000: walk
+    7400002: Idle
+    7400004: run
+    7400006: damage
+    7400008: punch1
+    7400010: jump
+    9500000: //RootNode
+    13700000: Juri_modelo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: dedosL
+        weight: 1
+      - path: dedosL/anelarL00
+        weight: 1
+      - path: dedosL/anelarL00/anelarL01
+        weight: 1
+      - path: dedosL/anelarL00/anelarL01/anelarL02
+        weight: 1
+      - path: dedosL/anelarL00/anelarL01/anelarL02/toco_anelarL03
+        weight: 1
+      - path: dedosL/controle_anelarL
+        weight: 1
+      - path: dedosL/controle_anelarL/IK_anelarL
+        weight: 1
+      - path: dedosL/controle_dedoMeioL
+        weight: 1
+      - path: dedosL/controle_dedoMeioL/IK_dedoMeioL
+        weight: 1
+      - path: dedosL/controle_IndicadorL
+        weight: 1
+      - path: dedosL/controle_IndicadorL/IK_IndicadorL
+        weight: 1
+      - path: dedosL/controle_mindinhoL
+        weight: 1
+      - path: dedosL/controle_mindinhoL/IK_mindinhoL
+        weight: 1
+      - path: dedosL/controle_polegarL
+        weight: 1
+      - path: dedosL/controle_polegarL/IK_polegarL
+        weight: 1
+      - path: dedosL/dedo_meioL00
+        weight: 1
+      - path: dedosL/dedo_meioL00/dedo_meioL01
+        weight: 1
+      - path: dedosL/dedo_meioL00/dedo_meioL01/dedo_meioL02
+        weight: 1
+      - path: dedosL/dedo_meioL00/dedo_meioL01/dedo_meioL02/toco_dedo_meioL03
+        weight: 1
+      - path: dedosL/indicadorL00
+        weight: 1
+      - path: dedosL/indicadorL00/indicadorL01
+        weight: 1
+      - path: dedosL/indicadorL00/indicadorL01/indicadorL02
+        weight: 1
+      - path: dedosL/indicadorL00/indicadorL01/indicadorL02/toco_indicadorL03
+        weight: 1
+      - path: dedosL/mindinhoL00
+        weight: 1
+      - path: dedosL/mindinhoL00/mindinhoL01
+        weight: 1
+      - path: dedosL/mindinhoL00/mindinhoL01/mindinhoL02
+        weight: 1
+      - path: dedosL/mindinhoL00/mindinhoL01/mindinhoL02/toco_mindinhoL03
+        weight: 1
+      - path: dedosL/path_anelarL
+        weight: 1
+      - path: dedosL/path_indicadorL
+        weight: 1
+      - path: dedosL/path_meioL
+        weight: 1
+      - path: dedosL/path_mindinho
+        weight: 1
+      - path: dedosL/polegarL00
+        weight: 1
+      - path: dedosL/polegarL00/polegarL01
+        weight: 1
+      - path: dedosL/polegarL00/polegarL02
+        weight: 1
+      - path: dedosL/polegarL00/polegarL02/toco_polegar
+        weight: 1
+      - path: dedosR
+        weight: 1
+      - path: dedosR/anelarR00
+        weight: 1
+      - path: dedosR/anelarR00/anelarR01
+        weight: 1
+      - path: dedosR/anelarR00/anelarR01/anelarR02
+        weight: 1
+      - path: dedosR/anelarR00/anelarR01/anelarR02/toco_anelarR03
+        weight: 1
+      - path: dedosR/controle_anelarR
+        weight: 1
+      - path: dedosR/controle_anelarR/IK_anelarR
+        weight: 1
+      - path: dedosR/controle_dedoMeioR
+        weight: 1
+      - path: dedosR/controle_dedoMeioR/IK_dedoMeioR
+        weight: 1
+      - path: dedosR/controle_IndicadorR
+        weight: 1
+      - path: dedosR/controle_IndicadorR/IK_IndicadorR
+        weight: 1
+      - path: dedosR/controle_mindinhoR
+        weight: 1
+      - path: dedosR/controle_mindinhoR/IK_mindinhoR
+        weight: 1
+      - path: dedosR/controle_polegarR
+        weight: 1
+      - path: dedosR/controle_polegarR/IK_polegarR
+        weight: 1
+      - path: dedosR/dedo_meioR00
+        weight: 1
+      - path: dedosR/dedo_meioR00/dedo_meioR01
+        weight: 1
+      - path: dedosR/dedo_meioR00/dedo_meioR01/dedo_meioR02
+        weight: 1
+      - path: dedosR/dedo_meioR00/dedo_meioR01/dedo_meioR02/toco_dedo_meioR03
+        weight: 1
+      - path: dedosR/indicadorR00
+        weight: 1
+      - path: dedosR/indicadorR00/indicadorR01
+        weight: 1
+      - path: dedosR/indicadorR00/indicadorR01/indicadorR02
+        weight: 1
+      - path: dedosR/indicadorR00/indicadorR01/indicadorR02/toco_toco_indicadorR
+        weight: 1
+      - path: dedosR/mindinhoR00
+        weight: 1
+      - path: dedosR/mindinhoR00/mindinhoR01
+        weight: 1
+      - path: dedosR/mindinhoR00/mindinhoR01/mindinhoR02
+        weight: 1
+      - path: dedosR/mindinhoR00/mindinhoR01/mindinhoR02/toco_mindinhoR03
+        weight: 1
+      - path: dedosR/path_anelarR
+        weight: 1
+      - path: dedosR/path_indicadorR
+        weight: 1
+      - path: dedosR/path_meioR
+        weight: 1
+      - path: dedosR/path_mindinhoR
+        weight: 1
+      - path: dedosR/polegarR00
+        weight: 1
+      - path: dedosR/polegarR00/polegarR01
+        weight: 1
+      - path: dedosR/polegarR00/polegarR02
+        weight: 1
+      - path: dedosR/polegarR00/polegarR02/toco_polegarR
+        weight: 1
+      - path: Juri_modelo
+        weight: 1
+      - path: Ponto_Contato
+        weight: 1
+      - path: Ponto_Contato/centro_massa
+        weight: 1
+      - path: Ponto_Contato/centro_massa/avental
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/bowDown
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/bowUp
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01/bracoL02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01/bracoL02/bracoL03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01/bracoL02/bracoL03/toco_maoL
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01/bracoR02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01/bracoR02/bracoR03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01/bracoR02/bracoR03/toco_maoR
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/c_vertebral05
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/franja
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/franja/franjaB
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03/ponytail04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03/ponytail04/ponytail05
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03/ponytail04/ponytail05/toco_ponytail06
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/porca
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01/pernaL02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01/pernaL02/pernaL03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01/pernaL02/pernaL03/pernaL04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01/pernaR02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01/pernaR02/pernaR03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01/pernaR02/pernaR03/pernaR04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/toco_pelvis
+        weight: 1
+      - path: Ponto_Contato/controle_bracoL
+        weight: 1
+      - path: Ponto_Contato/controle_bracoL/IK_ArmL
+        weight: 1
+      - path: Ponto_Contato/controle_bracoR
+        weight: 1
+      - path: Ponto_Contato/controle_bracoR/IK_ArmR
+        weight: 1
+      - path: Ponto_Contato/controle_peL
+        weight: 1
+      - path: Ponto_Contato/controle_peL/IK_FootL
+        weight: 1
+      - path: Ponto_Contato/controle_peR
+        weight: 1
+      - path: Ponto_Contato/controle_peR/IK_FootR
+        weight: 1
+      - path: Ponto_Contato/controle_pernaL
+        weight: 1
+      - path: Ponto_Contato/controle_pernaL/IK_LegL
+        weight: 1
+      - path: Ponto_Contato/controle_pernaR
+        weight: 1
+      - path: Ponto_Contato/controle_pernaR/IK_LegR
+        weight: 1
+      - path: posicao_cabeca
+        weight: 1
+      - path: posicao_cabeca/controle_ponytail
+        weight: 1
+      - path: posicao_cabeca/controle_ponytail/IK_ponytail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: dedosL
+        weight: 1
+      - path: dedosL/anelarL00
+        weight: 1
+      - path: dedosL/anelarL00/anelarL01
+        weight: 1
+      - path: dedosL/anelarL00/anelarL01/anelarL02
+        weight: 1
+      - path: dedosL/anelarL00/anelarL01/anelarL02/toco_anelarL03
+        weight: 1
+      - path: dedosL/controle_anelarL
+        weight: 1
+      - path: dedosL/controle_anelarL/IK_anelarL
+        weight: 1
+      - path: dedosL/controle_dedoMeioL
+        weight: 1
+      - path: dedosL/controle_dedoMeioL/IK_dedoMeioL
+        weight: 1
+      - path: dedosL/controle_IndicadorL
+        weight: 1
+      - path: dedosL/controle_IndicadorL/IK_IndicadorL
+        weight: 1
+      - path: dedosL/controle_mindinhoL
+        weight: 1
+      - path: dedosL/controle_mindinhoL/IK_mindinhoL
+        weight: 1
+      - path: dedosL/controle_polegarL
+        weight: 1
+      - path: dedosL/controle_polegarL/IK_polegarL
+        weight: 1
+      - path: dedosL/dedo_meioL00
+        weight: 1
+      - path: dedosL/dedo_meioL00/dedo_meioL01
+        weight: 1
+      - path: dedosL/dedo_meioL00/dedo_meioL01/dedo_meioL02
+        weight: 1
+      - path: dedosL/dedo_meioL00/dedo_meioL01/dedo_meioL02/toco_dedo_meioL03
+        weight: 1
+      - path: dedosL/indicadorL00
+        weight: 1
+      - path: dedosL/indicadorL00/indicadorL01
+        weight: 1
+      - path: dedosL/indicadorL00/indicadorL01/indicadorL02
+        weight: 1
+      - path: dedosL/indicadorL00/indicadorL01/indicadorL02/toco_indicadorL03
+        weight: 1
+      - path: dedosL/mindinhoL00
+        weight: 1
+      - path: dedosL/mindinhoL00/mindinhoL01
+        weight: 1
+      - path: dedosL/mindinhoL00/mindinhoL01/mindinhoL02
+        weight: 1
+      - path: dedosL/mindinhoL00/mindinhoL01/mindinhoL02/toco_mindinhoL03
+        weight: 1
+      - path: dedosL/path_anelarL
+        weight: 1
+      - path: dedosL/path_indicadorL
+        weight: 1
+      - path: dedosL/path_meioL
+        weight: 1
+      - path: dedosL/path_mindinho
+        weight: 1
+      - path: dedosL/polegarL00
+        weight: 1
+      - path: dedosL/polegarL00/polegarL01
+        weight: 1
+      - path: dedosL/polegarL00/polegarL02
+        weight: 1
+      - path: dedosL/polegarL00/polegarL02/toco_polegar
+        weight: 1
+      - path: dedosR
+        weight: 1
+      - path: dedosR/anelarR00
+        weight: 1
+      - path: dedosR/anelarR00/anelarR01
+        weight: 1
+      - path: dedosR/anelarR00/anelarR01/anelarR02
+        weight: 1
+      - path: dedosR/anelarR00/anelarR01/anelarR02/toco_anelarR03
+        weight: 1
+      - path: dedosR/controle_anelarR
+        weight: 1
+      - path: dedosR/controle_anelarR/IK_anelarR
+        weight: 1
+      - path: dedosR/controle_dedoMeioR
+        weight: 1
+      - path: dedosR/controle_dedoMeioR/IK_dedoMeioR
+        weight: 1
+      - path: dedosR/controle_IndicadorR
+        weight: 1
+      - path: dedosR/controle_IndicadorR/IK_IndicadorR
+        weight: 1
+      - path: dedosR/controle_mindinhoR
+        weight: 1
+      - path: dedosR/controle_mindinhoR/IK_mindinhoR
+        weight: 1
+      - path: dedosR/controle_polegarR
+        weight: 1
+      - path: dedosR/controle_polegarR/IK_polegarR
+        weight: 1
+      - path: dedosR/dedo_meioR00
+        weight: 1
+      - path: dedosR/dedo_meioR00/dedo_meioR01
+        weight: 1
+      - path: dedosR/dedo_meioR00/dedo_meioR01/dedo_meioR02
+        weight: 1
+      - path: dedosR/dedo_meioR00/dedo_meioR01/dedo_meioR02/toco_dedo_meioR03
+        weight: 1
+      - path: dedosR/indicadorR00
+        weight: 1
+      - path: dedosR/indicadorR00/indicadorR01
+        weight: 1
+      - path: dedosR/indicadorR00/indicadorR01/indicadorR02
+        weight: 1
+      - path: dedosR/indicadorR00/indicadorR01/indicadorR02/toco_toco_indicadorR
+        weight: 1
+      - path: dedosR/mindinhoR00
+        weight: 1
+      - path: dedosR/mindinhoR00/mindinhoR01
+        weight: 1
+      - path: dedosR/mindinhoR00/mindinhoR01/mindinhoR02
+        weight: 1
+      - path: dedosR/mindinhoR00/mindinhoR01/mindinhoR02/toco_mindinhoR03
+        weight: 1
+      - path: dedosR/path_anelarR
+        weight: 1
+      - path: dedosR/path_indicadorR
+        weight: 1
+      - path: dedosR/path_meioR
+        weight: 1
+      - path: dedosR/path_mindinhoR
+        weight: 1
+      - path: dedosR/polegarR00
+        weight: 1
+      - path: dedosR/polegarR00/polegarR01
+        weight: 1
+      - path: dedosR/polegarR00/polegarR02
+        weight: 1
+      - path: dedosR/polegarR00/polegarR02/toco_polegarR
+        weight: 1
+      - path: Juri_modelo
+        weight: 1
+      - path: Ponto_Contato
+        weight: 1
+      - path: Ponto_Contato/centro_massa
+        weight: 1
+      - path: Ponto_Contato/centro_massa/avental
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/bowDown
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/bowUp
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01/bracoL02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01/bracoL02/bracoL03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01/bracoL02/bracoL03/toco_maoL
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01/bracoR02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01/bracoR02/bracoR03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01/bracoR02/bracoR03/toco_maoR
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/c_vertebral05
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/franja
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/franja/franjaB
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03/ponytail04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03/ponytail04/ponytail05
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03/ponytail04/ponytail05/toco_ponytail06
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/porca
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01/pernaL02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01/pernaL02/pernaL03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01/pernaL02/pernaL03/pernaL04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01/pernaR02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01/pernaR02/pernaR03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01/pernaR02/pernaR03/pernaR04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/toco_pelvis
+        weight: 1
+      - path: Ponto_Contato/controle_bracoL
+        weight: 1
+      - path: Ponto_Contato/controle_bracoL/IK_ArmL
+        weight: 1
+      - path: Ponto_Contato/controle_bracoR
+        weight: 1
+      - path: Ponto_Contato/controle_bracoR/IK_ArmR
+        weight: 1
+      - path: Ponto_Contato/controle_peL
+        weight: 1
+      - path: Ponto_Contato/controle_peL/IK_FootL
+        weight: 1
+      - path: Ponto_Contato/controle_peR
+        weight: 1
+      - path: Ponto_Contato/controle_peR/IK_FootR
+        weight: 1
+      - path: Ponto_Contato/controle_pernaL
+        weight: 1
+      - path: Ponto_Contato/controle_pernaL/IK_LegL
+        weight: 1
+      - path: Ponto_Contato/controle_pernaR
+        weight: 1
+      - path: Ponto_Contato/controle_pernaR/IK_LegR
+        weight: 1
+      - path: posicao_cabeca
+        weight: 1
+      - path: posicao_cabeca/controle_ponytail
+        weight: 1
+      - path: posicao_cabeca/controle_ponytail/IK_ponytail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 110
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: dedosL
+        weight: 1
+      - path: dedosL/anelarL00
+        weight: 1
+      - path: dedosL/anelarL00/anelarL01
+        weight: 1
+      - path: dedosL/anelarL00/anelarL01/anelarL02
+        weight: 1
+      - path: dedosL/anelarL00/anelarL01/anelarL02/toco_anelarL03
+        weight: 1
+      - path: dedosL/controle_anelarL
+        weight: 1
+      - path: dedosL/controle_anelarL/IK_anelarL
+        weight: 1
+      - path: dedosL/controle_dedoMeioL
+        weight: 1
+      - path: dedosL/controle_dedoMeioL/IK_dedoMeioL
+        weight: 1
+      - path: dedosL/controle_IndicadorL
+        weight: 1
+      - path: dedosL/controle_IndicadorL/IK_IndicadorL
+        weight: 1
+      - path: dedosL/controle_mindinhoL
+        weight: 1
+      - path: dedosL/controle_mindinhoL/IK_mindinhoL
+        weight: 1
+      - path: dedosL/controle_polegarL
+        weight: 1
+      - path: dedosL/controle_polegarL/IK_polegarL
+        weight: 1
+      - path: dedosL/dedo_meioL00
+        weight: 1
+      - path: dedosL/dedo_meioL00/dedo_meioL01
+        weight: 1
+      - path: dedosL/dedo_meioL00/dedo_meioL01/dedo_meioL02
+        weight: 1
+      - path: dedosL/dedo_meioL00/dedo_meioL01/dedo_meioL02/toco_dedo_meioL03
+        weight: 1
+      - path: dedosL/indicadorL00
+        weight: 1
+      - path: dedosL/indicadorL00/indicadorL01
+        weight: 1
+      - path: dedosL/indicadorL00/indicadorL01/indicadorL02
+        weight: 1
+      - path: dedosL/indicadorL00/indicadorL01/indicadorL02/toco_indicadorL03
+        weight: 1
+      - path: dedosL/mindinhoL00
+        weight: 1
+      - path: dedosL/mindinhoL00/mindinhoL01
+        weight: 1
+      - path: dedosL/mindinhoL00/mindinhoL01/mindinhoL02
+        weight: 1
+      - path: dedosL/mindinhoL00/mindinhoL01/mindinhoL02/toco_mindinhoL03
+        weight: 1
+      - path: dedosL/path_anelarL
+        weight: 1
+      - path: dedosL/path_indicadorL
+        weight: 1
+      - path: dedosL/path_meioL
+        weight: 1
+      - path: dedosL/path_mindinho
+        weight: 1
+      - path: dedosL/polegarL00
+        weight: 1
+      - path: dedosL/polegarL00/polegarL01
+        weight: 1
+      - path: dedosL/polegarL00/polegarL02
+        weight: 1
+      - path: dedosL/polegarL00/polegarL02/toco_polegar
+        weight: 1
+      - path: dedosR
+        weight: 1
+      - path: dedosR/anelarR00
+        weight: 1
+      - path: dedosR/anelarR00/anelarR01
+        weight: 1
+      - path: dedosR/anelarR00/anelarR01/anelarR02
+        weight: 1
+      - path: dedosR/anelarR00/anelarR01/anelarR02/toco_anelarR03
+        weight: 1
+      - path: dedosR/controle_anelarR
+        weight: 1
+      - path: dedosR/controle_anelarR/IK_anelarR
+        weight: 1
+      - path: dedosR/controle_dedoMeioR
+        weight: 1
+      - path: dedosR/controle_dedoMeioR/IK_dedoMeioR
+        weight: 1
+      - path: dedosR/controle_IndicadorR
+        weight: 1
+      - path: dedosR/controle_IndicadorR/IK_IndicadorR
+        weight: 1
+      - path: dedosR/controle_mindinhoR
+        weight: 1
+      - path: dedosR/controle_mindinhoR/IK_mindinhoR
+        weight: 1
+      - path: dedosR/controle_polegarR
+        weight: 1
+      - path: dedosR/controle_polegarR/IK_polegarR
+        weight: 1
+      - path: dedosR/dedo_meioR00
+        weight: 1
+      - path: dedosR/dedo_meioR00/dedo_meioR01
+        weight: 1
+      - path: dedosR/dedo_meioR00/dedo_meioR01/dedo_meioR02
+        weight: 1
+      - path: dedosR/dedo_meioR00/dedo_meioR01/dedo_meioR02/toco_dedo_meioR03
+        weight: 1
+      - path: dedosR/indicadorR00
+        weight: 1
+      - path: dedosR/indicadorR00/indicadorR01
+        weight: 1
+      - path: dedosR/indicadorR00/indicadorR01/indicadorR02
+        weight: 1
+      - path: dedosR/indicadorR00/indicadorR01/indicadorR02/toco_toco_indicadorR
+        weight: 1
+      - path: dedosR/mindinhoR00
+        weight: 1
+      - path: dedosR/mindinhoR00/mindinhoR01
+        weight: 1
+      - path: dedosR/mindinhoR00/mindinhoR01/mindinhoR02
+        weight: 1
+      - path: dedosR/mindinhoR00/mindinhoR01/mindinhoR02/toco_mindinhoR03
+        weight: 1
+      - path: dedosR/path_anelarR
+        weight: 1
+      - path: dedosR/path_indicadorR
+        weight: 1
+      - path: dedosR/path_meioR
+        weight: 1
+      - path: dedosR/path_mindinhoR
+        weight: 1
+      - path: dedosR/polegarR00
+        weight: 1
+      - path: dedosR/polegarR00/polegarR01
+        weight: 1
+      - path: dedosR/polegarR00/polegarR02
+        weight: 1
+      - path: dedosR/polegarR00/polegarR02/toco_polegarR
+        weight: 1
+      - path: Juri_modelo
+        weight: 1
+      - path: Ponto_Contato
+        weight: 1
+      - path: Ponto_Contato/centro_massa
+        weight: 1
+      - path: Ponto_Contato/centro_massa/avental
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/bowDown
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/bowUp
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01/bracoL02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01/bracoL02/bracoL03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01/bracoL02/bracoL03/toco_maoL
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01/bracoR02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01/bracoR02/bracoR03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01/bracoR02/bracoR03/toco_maoR
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/c_vertebral05
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/franja
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/franja/franjaB
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03/ponytail04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03/ponytail04/ponytail05
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03/ponytail04/ponytail05/toco_ponytail06
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/porca
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01/pernaL02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01/pernaL02/pernaL03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01/pernaL02/pernaL03/pernaL04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01/pernaR02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01/pernaR02/pernaR03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01/pernaR02/pernaR03/pernaR04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/toco_pelvis
+        weight: 1
+      - path: Ponto_Contato/controle_bracoL
+        weight: 1
+      - path: Ponto_Contato/controle_bracoL/IK_ArmL
+        weight: 1
+      - path: Ponto_Contato/controle_bracoR
+        weight: 1
+      - path: Ponto_Contato/controle_bracoR/IK_ArmR
+        weight: 1
+      - path: Ponto_Contato/controle_peL
+        weight: 1
+      - path: Ponto_Contato/controle_peL/IK_FootL
+        weight: 1
+      - path: Ponto_Contato/controle_peR
+        weight: 1
+      - path: Ponto_Contato/controle_peR/IK_FootR
+        weight: 1
+      - path: Ponto_Contato/controle_pernaL
+        weight: 1
+      - path: Ponto_Contato/controle_pernaL/IK_LegL
+        weight: 1
+      - path: Ponto_Contato/controle_pernaR
+        weight: 1
+      - path: Ponto_Contato/controle_pernaR/IK_LegR
+        weight: 1
+      - path: posicao_cabeca
+        weight: 1
+      - path: posicao_cabeca/controle_ponytail
+        weight: 1
+      - path: posicao_cabeca/controle_ponytail/IK_ponytail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: damage
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: dedosL
+        weight: 1
+      - path: dedosL/anelarL00
+        weight: 1
+      - path: dedosL/anelarL00/anelarL01
+        weight: 1
+      - path: dedosL/anelarL00/anelarL01/anelarL02
+        weight: 1
+      - path: dedosL/anelarL00/anelarL01/anelarL02/toco_anelarL03
+        weight: 1
+      - path: dedosL/controle_anelarL
+        weight: 1
+      - path: dedosL/controle_anelarL/IK_anelarL
+        weight: 1
+      - path: dedosL/controle_dedoMeioL
+        weight: 1
+      - path: dedosL/controle_dedoMeioL/IK_dedoMeioL
+        weight: 1
+      - path: dedosL/controle_IndicadorL
+        weight: 1
+      - path: dedosL/controle_IndicadorL/IK_IndicadorL
+        weight: 1
+      - path: dedosL/controle_mindinhoL
+        weight: 1
+      - path: dedosL/controle_mindinhoL/IK_mindinhoL
+        weight: 1
+      - path: dedosL/controle_polegarL
+        weight: 1
+      - path: dedosL/controle_polegarL/IK_polegarL
+        weight: 1
+      - path: dedosL/dedo_meioL00
+        weight: 1
+      - path: dedosL/dedo_meioL00/dedo_meioL01
+        weight: 1
+      - path: dedosL/dedo_meioL00/dedo_meioL01/dedo_meioL02
+        weight: 1
+      - path: dedosL/dedo_meioL00/dedo_meioL01/dedo_meioL02/toco_dedo_meioL03
+        weight: 1
+      - path: dedosL/indicadorL00
+        weight: 1
+      - path: dedosL/indicadorL00/indicadorL01
+        weight: 1
+      - path: dedosL/indicadorL00/indicadorL01/indicadorL02
+        weight: 1
+      - path: dedosL/indicadorL00/indicadorL01/indicadorL02/toco_indicadorL03
+        weight: 1
+      - path: dedosL/mindinhoL00
+        weight: 1
+      - path: dedosL/mindinhoL00/mindinhoL01
+        weight: 1
+      - path: dedosL/mindinhoL00/mindinhoL01/mindinhoL02
+        weight: 1
+      - path: dedosL/mindinhoL00/mindinhoL01/mindinhoL02/toco_mindinhoL03
+        weight: 1
+      - path: dedosL/path_anelarL
+        weight: 1
+      - path: dedosL/path_indicadorL
+        weight: 1
+      - path: dedosL/path_meioL
+        weight: 1
+      - path: dedosL/path_mindinho
+        weight: 1
+      - path: dedosL/polegarL00
+        weight: 1
+      - path: dedosL/polegarL00/polegarL01
+        weight: 1
+      - path: dedosL/polegarL00/polegarL02
+        weight: 1
+      - path: dedosL/polegarL00/polegarL02/toco_polegar
+        weight: 1
+      - path: dedosR
+        weight: 1
+      - path: dedosR/anelarR00
+        weight: 1
+      - path: dedosR/anelarR00/anelarR01
+        weight: 1
+      - path: dedosR/anelarR00/anelarR01/anelarR02
+        weight: 1
+      - path: dedosR/anelarR00/anelarR01/anelarR02/toco_anelarR03
+        weight: 1
+      - path: dedosR/controle_anelarR
+        weight: 1
+      - path: dedosR/controle_anelarR/IK_anelarR
+        weight: 1
+      - path: dedosR/controle_dedoMeioR
+        weight: 1
+      - path: dedosR/controle_dedoMeioR/IK_dedoMeioR
+        weight: 1
+      - path: dedosR/controle_IndicadorR
+        weight: 1
+      - path: dedosR/controle_IndicadorR/IK_IndicadorR
+        weight: 1
+      - path: dedosR/controle_mindinhoR
+        weight: 1
+      - path: dedosR/controle_mindinhoR/IK_mindinhoR
+        weight: 1
+      - path: dedosR/controle_polegarR
+        weight: 1
+      - path: dedosR/controle_polegarR/IK_polegarR
+        weight: 1
+      - path: dedosR/dedo_meioR00
+        weight: 1
+      - path: dedosR/dedo_meioR00/dedo_meioR01
+        weight: 1
+      - path: dedosR/dedo_meioR00/dedo_meioR01/dedo_meioR02
+        weight: 1
+      - path: dedosR/dedo_meioR00/dedo_meioR01/dedo_meioR02/toco_dedo_meioR03
+        weight: 1
+      - path: dedosR/indicadorR00
+        weight: 1
+      - path: dedosR/indicadorR00/indicadorR01
+        weight: 1
+      - path: dedosR/indicadorR00/indicadorR01/indicadorR02
+        weight: 1
+      - path: dedosR/indicadorR00/indicadorR01/indicadorR02/toco_toco_indicadorR
+        weight: 1
+      - path: dedosR/mindinhoR00
+        weight: 1
+      - path: dedosR/mindinhoR00/mindinhoR01
+        weight: 1
+      - path: dedosR/mindinhoR00/mindinhoR01/mindinhoR02
+        weight: 1
+      - path: dedosR/mindinhoR00/mindinhoR01/mindinhoR02/toco_mindinhoR03
+        weight: 1
+      - path: dedosR/path_anelarR
+        weight: 1
+      - path: dedosR/path_indicadorR
+        weight: 1
+      - path: dedosR/path_meioR
+        weight: 1
+      - path: dedosR/path_mindinhoR
+        weight: 1
+      - path: dedosR/polegarR00
+        weight: 1
+      - path: dedosR/polegarR00/polegarR01
+        weight: 1
+      - path: dedosR/polegarR00/polegarR02
+        weight: 1
+      - path: dedosR/polegarR00/polegarR02/toco_polegarR
+        weight: 1
+      - path: Juri_modelo
+        weight: 1
+      - path: Ponto_Contato
+        weight: 1
+      - path: Ponto_Contato/centro_massa
+        weight: 1
+      - path: Ponto_Contato/centro_massa/avental
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/bowDown
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/bowUp
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01/bracoL02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01/bracoL02/bracoL03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01/bracoL02/bracoL03/toco_maoL
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01/bracoR02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01/bracoR02/bracoR03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01/bracoR02/bracoR03/toco_maoR
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/c_vertebral05
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/franja
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/franja/franjaB
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03/ponytail04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03/ponytail04/ponytail05
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03/ponytail04/ponytail05/toco_ponytail06
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/porca
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01/pernaL02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01/pernaL02/pernaL03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01/pernaL02/pernaL03/pernaL04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01/pernaR02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01/pernaR02/pernaR03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01/pernaR02/pernaR03/pernaR04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/toco_pelvis
+        weight: 1
+      - path: Ponto_Contato/controle_bracoL
+        weight: 1
+      - path: Ponto_Contato/controle_bracoL/IK_ArmL
+        weight: 1
+      - path: Ponto_Contato/controle_bracoR
+        weight: 1
+      - path: Ponto_Contato/controle_bracoR/IK_ArmR
+        weight: 1
+      - path: Ponto_Contato/controle_peL
+        weight: 1
+      - path: Ponto_Contato/controle_peL/IK_FootL
+        weight: 1
+      - path: Ponto_Contato/controle_peR
+        weight: 1
+      - path: Ponto_Contato/controle_peR/IK_FootR
+        weight: 1
+      - path: Ponto_Contato/controle_pernaL
+        weight: 1
+      - path: Ponto_Contato/controle_pernaL/IK_LegL
+        weight: 1
+      - path: Ponto_Contato/controle_pernaR
+        weight: 1
+      - path: Ponto_Contato/controle_pernaR/IK_LegR
+        weight: 1
+      - path: posicao_cabeca
+        weight: 1
+      - path: posicao_cabeca/controle_ponytail
+        weight: 1
+      - path: posicao_cabeca/controle_ponytail/IK_ponytail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: punch1
+      takeName: Take 001
+      firstFrame: 190
+      lastFrame: 220
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: dedosL
+        weight: 1
+      - path: dedosL/anelarL00
+        weight: 1
+      - path: dedosL/anelarL00/anelarL01
+        weight: 1
+      - path: dedosL/anelarL00/anelarL01/anelarL02
+        weight: 1
+      - path: dedosL/anelarL00/anelarL01/anelarL02/toco_anelarL03
+        weight: 1
+      - path: dedosL/controle_anelarL
+        weight: 1
+      - path: dedosL/controle_anelarL/IK_anelarL
+        weight: 1
+      - path: dedosL/controle_dedoMeioL
+        weight: 1
+      - path: dedosL/controle_dedoMeioL/IK_dedoMeioL
+        weight: 1
+      - path: dedosL/controle_IndicadorL
+        weight: 1
+      - path: dedosL/controle_IndicadorL/IK_IndicadorL
+        weight: 1
+      - path: dedosL/controle_mindinhoL
+        weight: 1
+      - path: dedosL/controle_mindinhoL/IK_mindinhoL
+        weight: 1
+      - path: dedosL/controle_polegarL
+        weight: 1
+      - path: dedosL/controle_polegarL/IK_polegarL
+        weight: 1
+      - path: dedosL/dedo_meioL00
+        weight: 1
+      - path: dedosL/dedo_meioL00/dedo_meioL01
+        weight: 1
+      - path: dedosL/dedo_meioL00/dedo_meioL01/dedo_meioL02
+        weight: 1
+      - path: dedosL/dedo_meioL00/dedo_meioL01/dedo_meioL02/toco_dedo_meioL03
+        weight: 1
+      - path: dedosL/indicadorL00
+        weight: 1
+      - path: dedosL/indicadorL00/indicadorL01
+        weight: 1
+      - path: dedosL/indicadorL00/indicadorL01/indicadorL02
+        weight: 1
+      - path: dedosL/indicadorL00/indicadorL01/indicadorL02/toco_indicadorL03
+        weight: 1
+      - path: dedosL/mindinhoL00
+        weight: 1
+      - path: dedosL/mindinhoL00/mindinhoL01
+        weight: 1
+      - path: dedosL/mindinhoL00/mindinhoL01/mindinhoL02
+        weight: 1
+      - path: dedosL/mindinhoL00/mindinhoL01/mindinhoL02/toco_mindinhoL03
+        weight: 1
+      - path: dedosL/path_anelarL
+        weight: 1
+      - path: dedosL/path_indicadorL
+        weight: 1
+      - path: dedosL/path_meioL
+        weight: 1
+      - path: dedosL/path_mindinho
+        weight: 1
+      - path: dedosL/polegarL00
+        weight: 1
+      - path: dedosL/polegarL00/polegarL01
+        weight: 1
+      - path: dedosL/polegarL00/polegarL02
+        weight: 1
+      - path: dedosL/polegarL00/polegarL02/toco_polegar
+        weight: 1
+      - path: dedosR
+        weight: 1
+      - path: dedosR/anelarR00
+        weight: 1
+      - path: dedosR/anelarR00/anelarR01
+        weight: 1
+      - path: dedosR/anelarR00/anelarR01/anelarR02
+        weight: 1
+      - path: dedosR/anelarR00/anelarR01/anelarR02/toco_anelarR03
+        weight: 1
+      - path: dedosR/controle_anelarR
+        weight: 1
+      - path: dedosR/controle_anelarR/IK_anelarR
+        weight: 1
+      - path: dedosR/controle_dedoMeioR
+        weight: 1
+      - path: dedosR/controle_dedoMeioR/IK_dedoMeioR
+        weight: 1
+      - path: dedosR/controle_IndicadorR
+        weight: 1
+      - path: dedosR/controle_IndicadorR/IK_IndicadorR
+        weight: 1
+      - path: dedosR/controle_mindinhoR
+        weight: 1
+      - path: dedosR/controle_mindinhoR/IK_mindinhoR
+        weight: 1
+      - path: dedosR/controle_polegarR
+        weight: 1
+      - path: dedosR/controle_polegarR/IK_polegarR
+        weight: 1
+      - path: dedosR/dedo_meioR00
+        weight: 1
+      - path: dedosR/dedo_meioR00/dedo_meioR01
+        weight: 1
+      - path: dedosR/dedo_meioR00/dedo_meioR01/dedo_meioR02
+        weight: 1
+      - path: dedosR/dedo_meioR00/dedo_meioR01/dedo_meioR02/toco_dedo_meioR03
+        weight: 1
+      - path: dedosR/indicadorR00
+        weight: 1
+      - path: dedosR/indicadorR00/indicadorR01
+        weight: 1
+      - path: dedosR/indicadorR00/indicadorR01/indicadorR02
+        weight: 1
+      - path: dedosR/indicadorR00/indicadorR01/indicadorR02/toco_toco_indicadorR
+        weight: 1
+      - path: dedosR/mindinhoR00
+        weight: 1
+      - path: dedosR/mindinhoR00/mindinhoR01
+        weight: 1
+      - path: dedosR/mindinhoR00/mindinhoR01/mindinhoR02
+        weight: 1
+      - path: dedosR/mindinhoR00/mindinhoR01/mindinhoR02/toco_mindinhoR03
+        weight: 1
+      - path: dedosR/path_anelarR
+        weight: 1
+      - path: dedosR/path_indicadorR
+        weight: 1
+      - path: dedosR/path_meioR
+        weight: 1
+      - path: dedosR/path_mindinhoR
+        weight: 1
+      - path: dedosR/polegarR00
+        weight: 1
+      - path: dedosR/polegarR00/polegarR01
+        weight: 1
+      - path: dedosR/polegarR00/polegarR02
+        weight: 1
+      - path: dedosR/polegarR00/polegarR02/toco_polegarR
+        weight: 1
+      - path: Juri_modelo
+        weight: 1
+      - path: Ponto_Contato
+        weight: 1
+      - path: Ponto_Contato/centro_massa
+        weight: 1
+      - path: Ponto_Contato/centro_massa/avental
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/bowDown
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/bowUp
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01/bracoL02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01/bracoL02/bracoL03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01/bracoL02/bracoL03/toco_maoL
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01/bracoR02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01/bracoR02/bracoR03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01/bracoR02/bracoR03/toco_maoR
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/c_vertebral05
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/franja
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/franja/franjaB
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03/ponytail04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03/ponytail04/ponytail05
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03/ponytail04/ponytail05/toco_ponytail06
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/porca
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01/pernaL02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01/pernaL02/pernaL03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01/pernaL02/pernaL03/pernaL04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01/pernaR02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01/pernaR02/pernaR03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01/pernaR02/pernaR03/pernaR04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/toco_pelvis
+        weight: 1
+      - path: Ponto_Contato/controle_bracoL
+        weight: 1
+      - path: Ponto_Contato/controle_bracoL/IK_ArmL
+        weight: 1
+      - path: Ponto_Contato/controle_bracoR
+        weight: 1
+      - path: Ponto_Contato/controle_bracoR/IK_ArmR
+        weight: 1
+      - path: Ponto_Contato/controle_peL
+        weight: 1
+      - path: Ponto_Contato/controle_peL/IK_FootL
+        weight: 1
+      - path: Ponto_Contato/controle_peR
+        weight: 1
+      - path: Ponto_Contato/controle_peR/IK_FootR
+        weight: 1
+      - path: Ponto_Contato/controle_pernaL
+        weight: 1
+      - path: Ponto_Contato/controle_pernaL/IK_LegL
+        weight: 1
+      - path: Ponto_Contato/controle_pernaR
+        weight: 1
+      - path: Ponto_Contato/controle_pernaR/IK_LegR
+        weight: 1
+      - path: posicao_cabeca
+        weight: 1
+      - path: posicao_cabeca/controle_ponytail
+        weight: 1
+      - path: posicao_cabeca/controle_ponytail/IK_ponytail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jump
+      takeName: Take 001
+      firstFrame: 230
+      lastFrame: 255
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: dedosL
+        weight: 1
+      - path: dedosL/anelarL00
+        weight: 1
+      - path: dedosL/anelarL00/anelarL01
+        weight: 1
+      - path: dedosL/anelarL00/anelarL01/anelarL02
+        weight: 1
+      - path: dedosL/anelarL00/anelarL01/anelarL02/toco_anelarL03
+        weight: 1
+      - path: dedosL/controle_anelarL
+        weight: 1
+      - path: dedosL/controle_anelarL/IK_anelarL
+        weight: 1
+      - path: dedosL/controle_dedoMeioL
+        weight: 1
+      - path: dedosL/controle_dedoMeioL/IK_dedoMeioL
+        weight: 1
+      - path: dedosL/controle_IndicadorL
+        weight: 1
+      - path: dedosL/controle_IndicadorL/IK_IndicadorL
+        weight: 1
+      - path: dedosL/controle_mindinhoL
+        weight: 1
+      - path: dedosL/controle_mindinhoL/IK_mindinhoL
+        weight: 1
+      - path: dedosL/controle_polegarL
+        weight: 1
+      - path: dedosL/controle_polegarL/IK_polegarL
+        weight: 1
+      - path: dedosL/dedo_meioL00
+        weight: 1
+      - path: dedosL/dedo_meioL00/dedo_meioL01
+        weight: 1
+      - path: dedosL/dedo_meioL00/dedo_meioL01/dedo_meioL02
+        weight: 1
+      - path: dedosL/dedo_meioL00/dedo_meioL01/dedo_meioL02/toco_dedo_meioL03
+        weight: 1
+      - path: dedosL/indicadorL00
+        weight: 1
+      - path: dedosL/indicadorL00/indicadorL01
+        weight: 1
+      - path: dedosL/indicadorL00/indicadorL01/indicadorL02
+        weight: 1
+      - path: dedosL/indicadorL00/indicadorL01/indicadorL02/toco_indicadorL03
+        weight: 1
+      - path: dedosL/mindinhoL00
+        weight: 1
+      - path: dedosL/mindinhoL00/mindinhoL01
+        weight: 1
+      - path: dedosL/mindinhoL00/mindinhoL01/mindinhoL02
+        weight: 1
+      - path: dedosL/mindinhoL00/mindinhoL01/mindinhoL02/toco_mindinhoL03
+        weight: 1
+      - path: dedosL/path_anelarL
+        weight: 1
+      - path: dedosL/path_indicadorL
+        weight: 1
+      - path: dedosL/path_meioL
+        weight: 1
+      - path: dedosL/path_mindinho
+        weight: 1
+      - path: dedosL/polegarL00
+        weight: 1
+      - path: dedosL/polegarL00/polegarL01
+        weight: 1
+      - path: dedosL/polegarL00/polegarL02
+        weight: 1
+      - path: dedosL/polegarL00/polegarL02/toco_polegar
+        weight: 1
+      - path: dedosR
+        weight: 1
+      - path: dedosR/anelarR00
+        weight: 1
+      - path: dedosR/anelarR00/anelarR01
+        weight: 1
+      - path: dedosR/anelarR00/anelarR01/anelarR02
+        weight: 1
+      - path: dedosR/anelarR00/anelarR01/anelarR02/toco_anelarR03
+        weight: 1
+      - path: dedosR/controle_anelarR
+        weight: 1
+      - path: dedosR/controle_anelarR/IK_anelarR
+        weight: 1
+      - path: dedosR/controle_dedoMeioR
+        weight: 1
+      - path: dedosR/controle_dedoMeioR/IK_dedoMeioR
+        weight: 1
+      - path: dedosR/controle_IndicadorR
+        weight: 1
+      - path: dedosR/controle_IndicadorR/IK_IndicadorR
+        weight: 1
+      - path: dedosR/controle_mindinhoR
+        weight: 1
+      - path: dedosR/controle_mindinhoR/IK_mindinhoR
+        weight: 1
+      - path: dedosR/controle_polegarR
+        weight: 1
+      - path: dedosR/controle_polegarR/IK_polegarR
+        weight: 1
+      - path: dedosR/dedo_meioR00
+        weight: 1
+      - path: dedosR/dedo_meioR00/dedo_meioR01
+        weight: 1
+      - path: dedosR/dedo_meioR00/dedo_meioR01/dedo_meioR02
+        weight: 1
+      - path: dedosR/dedo_meioR00/dedo_meioR01/dedo_meioR02/toco_dedo_meioR03
+        weight: 1
+      - path: dedosR/indicadorR00
+        weight: 1
+      - path: dedosR/indicadorR00/indicadorR01
+        weight: 1
+      - path: dedosR/indicadorR00/indicadorR01/indicadorR02
+        weight: 1
+      - path: dedosR/indicadorR00/indicadorR01/indicadorR02/toco_toco_indicadorR
+        weight: 1
+      - path: dedosR/mindinhoR00
+        weight: 1
+      - path: dedosR/mindinhoR00/mindinhoR01
+        weight: 1
+      - path: dedosR/mindinhoR00/mindinhoR01/mindinhoR02
+        weight: 1
+      - path: dedosR/mindinhoR00/mindinhoR01/mindinhoR02/toco_mindinhoR03
+        weight: 1
+      - path: dedosR/path_anelarR
+        weight: 1
+      - path: dedosR/path_indicadorR
+        weight: 1
+      - path: dedosR/path_meioR
+        weight: 1
+      - path: dedosR/path_mindinhoR
+        weight: 1
+      - path: dedosR/polegarR00
+        weight: 1
+      - path: dedosR/polegarR00/polegarR01
+        weight: 1
+      - path: dedosR/polegarR00/polegarR02
+        weight: 1
+      - path: dedosR/polegarR00/polegarR02/toco_polegarR
+        weight: 1
+      - path: Juri_modelo
+        weight: 1
+      - path: Ponto_Contato
+        weight: 1
+      - path: Ponto_Contato/centro_massa
+        weight: 1
+      - path: Ponto_Contato/centro_massa/avental
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/bowDown
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/bowUp
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01/bracoL02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01/bracoL02/bracoL03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoL00/bracoL01/bracoL02/bracoL03/toco_maoL
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01/bracoR02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01/bracoR02/bracoR03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/bracoR00/bracoR01/bracoR02/bracoR03/toco_maoR
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/c_vertebral05
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/franja
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/franja/franjaB
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03/ponytail04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03/ponytail04/ponytail05
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/ponytail00/ponytail01/ponytail02/ponytail03/ponytail04/ponytail05/toco_ponytail06
+        weight: 1
+      - path: Ponto_Contato/centro_massa/c_vertebral00/c_vertebral01/c_vertebral02/c_vertebral03/c_vertebral04/porca
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01/pernaL02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01/pernaL02/pernaL03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaL00/pernaL01/pernaL02/pernaL03/pernaL04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01/pernaR02
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01/pernaR02/pernaR03
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/pernaR00/pernaR01/pernaR02/pernaR03/pernaR04
+        weight: 1
+      - path: Ponto_Contato/centro_massa/pelvis/toco_pelvis
+        weight: 1
+      - path: Ponto_Contato/controle_bracoL
+        weight: 1
+      - path: Ponto_Contato/controle_bracoL/IK_ArmL
+        weight: 1
+      - path: Ponto_Contato/controle_bracoR
+        weight: 1
+      - path: Ponto_Contato/controle_bracoR/IK_ArmR
+        weight: 1
+      - path: Ponto_Contato/controle_peL
+        weight: 1
+      - path: Ponto_Contato/controle_peL/IK_FootL
+        weight: 1
+      - path: Ponto_Contato/controle_peR
+        weight: 1
+      - path: Ponto_Contato/controle_peR/IK_FootR
+        weight: 1
+      - path: Ponto_Contato/controle_pernaL
+        weight: 1
+      - path: Ponto_Contato/controle_pernaL/IK_LegL
+        weight: 1
+      - path: Ponto_Contato/controle_pernaR
+        weight: 1
+      - path: Ponto_Contato/controle_pernaR/IK_LegR
+        weight: 1
+      - path: posicao_cabeca
+        weight: 1
+      - path: posicao_cabeca/controle_ponytail
+        weight: 1
+      - path: posicao_cabeca/controle_ponytail/IK_ponytail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

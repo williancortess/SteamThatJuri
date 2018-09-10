@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="10">
+ <tileset firstgid="1" name="colors" tilewidth="32" tileheight="32" tilecount="330" columns="11">
+  <image source="tiled-colors.png" trans="7ca3ff" width="352" height="984"/>
+ </tileset>
+ <objectgroup name="colisor">
+  <object id="1" x="64" y="160" width="416" height="288"/>
+  <object id="2" x="480" y="448" width="928" height="256"/>
+  <object id="3" x="1280" y="832" width="224" height="192"/>
+  <object id="4" x="1504" y="352" width="96" height="480"/>
+  <object id="5" x="64" y="0" width="512" height="64"/>
+  <object id="6" x="0" y="0" width="64" height="160"/>
+  <object id="7" x="576" y="64" width="928" height="288"/>
+  <object id="8" x="640" y="704" width="512" height="320"/>
+  <object id="9" x="1152" y="1024" width="128" height="96"/>
+ </objectgroup>
+</map>

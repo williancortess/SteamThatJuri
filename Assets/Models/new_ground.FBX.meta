@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 225c53684d6748b4cb83a838cba3ad5c
+timeCreated: 1499217309
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: acido_centro
+    100002: acido_inicio
+    100004: canos-cantos_ponta
+    100006: canos-cantos_topo
+    100008: canos-cantosL
+    100010: centro
+    100012: chao-base
+    100014: chao-corrido
+    100016: chao-ponta
+    100018: chao_baixo
+    100020: chao_baixoL
+    100022: chao_complemento
+    100024: full-wall
+    100026: half-wall
+    100028: half-wall_engine
+    100030: //RootNode
+    100032: parede
+    100034: pilar
+    100036: ponta
+    100038: toco
+    100040: toco_parede
+    100042: topo
+    400000: acido_centro
+    400002: acido_inicio
+    400004: canos-cantos_ponta
+    400006: canos-cantos_topo
+    400008: canos-cantosL
+    400010: centro
+    400012: chao-base
+    400014: chao-corrido
+    400016: chao-ponta
+    400018: chao_baixo
+    400020: chao_baixoL
+    400022: chao_complemento
+    400024: full-wall
+    400026: half-wall
+    400028: half-wall_engine
+    400030: //RootNode
+    400032: parede
+    400034: pilar
+    400036: ponta
+    400038: toco
+    400040: toco_parede
+    400042: topo
+    2300000: acido_centro
+    2300002: acido_inicio
+    2300004: canos-cantos_ponta
+    2300006: canos-cantos_topo
+    2300008: canos-cantosL
+    2300010: centro
+    2300012: chao-base
+    2300014: chao-corrido
+    2300016: chao-ponta
+    2300018: chao_baixo
+    2300020: chao_baixoL
+    2300022: chao_complemento
+    2300024: full-wall
+    2300026: half-wall
+    2300028: half-wall_engine
+    2300030: parede
+    2300032: pilar
+    2300034: ponta
+    2300036: toco
+    2300038: toco_parede
+    2300040: topo
+    3300000: acido_centro
+    3300002: acido_inicio
+    3300004: canos-cantos_ponta
+    3300006: canos-cantos_topo
+    3300008: canos-cantosL
+    3300010: centro
+    3300012: chao-base
+    3300014: chao-corrido
+    3300016: chao-ponta
+    3300018: chao_baixo
+    3300020: chao_baixoL
+    3300022: chao_complemento
+    3300024: full-wall
+    3300026: half-wall
+    3300028: half-wall_engine
+    3300030: parede
+    3300032: pilar
+    3300034: ponta
+    3300036: toco
+    3300038: toco_parede
+    3300040: topo
+    4300000: canos-cantos_ponta
+    4300002: canos-cantos_topo
+    4300004: canos-cantosL
+    4300006: centro
+    4300008: chao-base
+    4300010: chao_baixoL
+    4300012: chao-corrido
+    4300014: chao-ponta
+    4300016: parede
+    4300018: full-wall
+    4300020: half-wall
+    4300022: half-wall_engine
+    4300024: chao_baixo
+    4300026: chao_complemento
+    4300028: pilar
+    4300030: ponta
+    4300032: toco
+    4300034: toco_parede
+    4300036: topo
+    4300038: acido_centro
+    4300040: acido_inicio
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

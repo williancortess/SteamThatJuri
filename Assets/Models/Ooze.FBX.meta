@@ -1,0 +1,407 @@
+fileFormatVersion: 2
+guid: 1d5be474641b8734eaa375c7e74f356e
+timeCreated: 1498858498
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: eye
+    100002: eye_control
+    100004: eye_direction
+    100006: eye_path
+    100008: eye_position
+    100010: feet
+    100012: head
+    100014: Ooze
+    100016: //RootNode
+    100018: projectile
+    100020: projectile_control
+    100022: pupil_size
+    100024: SphereGizmo001
+    100026: the floor is here!
+    100028: tummy
+    400000: eye
+    400002: eye_control
+    400004: eye_direction
+    400006: eye_path
+    400008: eye_position
+    400010: feet
+    400012: head
+    400014: //RootNode
+    400016: Ooze
+    400018: projectile
+    400020: projectile_control
+    400022: pupil_size
+    400024: SphereGizmo001
+    400026: the floor is here!
+    400028: tummy
+    2300000: projectile
+    2300002: the floor is here!
+    3300000: projectile
+    3300002: the floor is here!
+    4300000: Ooze
+    4300002: eye
+    4300004: the floor is here!
+    4300006: projectile
+    7400000: Idle
+    7400002: move
+    7400004: attack
+    7400006: hurt
+    7400008: death
+    9500000: //RootNode
+    13700000: eye
+    13700002: Ooze
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eye_control
+        weight: 1
+      - path: eye_control/pupil_size
+        weight: 1
+      - path: Ooze
+        weight: 1
+      - path: Ooze/eye
+        weight: 1
+      - path: projectile
+        weight: 1
+      - path: projectile_control
+        weight: 1
+      - path: SphereGizmo001
+        weight: 1
+      - path: SphereGizmo001/eye_direction
+        weight: 1
+      - path: SphereGizmo001/feet
+        weight: 1
+      - path: SphereGizmo001/feet/tummy
+        weight: 1
+      - path: SphereGizmo001/feet/tummy/head
+        weight: 1
+      - path: SphereGizmo001/feet/tummy/head/eye_path
+        weight: 1
+      - path: SphereGizmo001/feet/tummy/head/eye_position
+        weight: 1
+      - path: the floor is here!
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: move
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eye_control
+        weight: 1
+      - path: eye_control/pupil_size
+        weight: 1
+      - path: Ooze
+        weight: 1
+      - path: Ooze/eye
+        weight: 1
+      - path: projectile
+        weight: 1
+      - path: projectile_control
+        weight: 1
+      - path: SphereGizmo001
+        weight: 1
+      - path: SphereGizmo001/eye_direction
+        weight: 1
+      - path: SphereGizmo001/feet
+        weight: 1
+      - path: SphereGizmo001/feet/tummy
+        weight: 1
+      - path: SphereGizmo001/feet/tummy/head
+        weight: 1
+      - path: SphereGizmo001/feet/tummy/head/eye_path
+        weight: 1
+      - path: SphereGizmo001/feet/tummy/head/eye_position
+        weight: 1
+      - path: the floor is here!
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eye_control
+        weight: 1
+      - path: eye_control/pupil_size
+        weight: 1
+      - path: Ooze
+        weight: 1
+      - path: Ooze/eye
+        weight: 1
+      - path: projectile
+        weight: 1
+      - path: projectile_control
+        weight: 1
+      - path: SphereGizmo001
+        weight: 1
+      - path: SphereGizmo001/eye_direction
+        weight: 1
+      - path: SphereGizmo001/feet
+        weight: 1
+      - path: SphereGizmo001/feet/tummy
+        weight: 1
+      - path: SphereGizmo001/feet/tummy/head
+        weight: 1
+      - path: SphereGizmo001/feet/tummy/head/eye_path
+        weight: 1
+      - path: SphereGizmo001/feet/tummy/head/eye_position
+        weight: 1
+      - path: the floor is here!
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: Take 001
+      firstFrame: 160
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eye_control
+        weight: 1
+      - path: eye_control/pupil_size
+        weight: 1
+      - path: Ooze
+        weight: 1
+      - path: Ooze/eye
+        weight: 1
+      - path: projectile
+        weight: 1
+      - path: projectile_control
+        weight: 1
+      - path: SphereGizmo001
+        weight: 1
+      - path: SphereGizmo001/eye_direction
+        weight: 1
+      - path: SphereGizmo001/feet
+        weight: 1
+      - path: SphereGizmo001/feet/tummy
+        weight: 1
+      - path: SphereGizmo001/feet/tummy/head
+        weight: 1
+      - path: SphereGizmo001/feet/tummy/head/eye_path
+        weight: 1
+      - path: SphereGizmo001/feet/tummy/head/eye_position
+        weight: 1
+      - path: the floor is here!
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eye_control
+        weight: 1
+      - path: eye_control/pupil_size
+        weight: 1
+      - path: Ooze
+        weight: 1
+      - path: Ooze/eye
+        weight: 1
+      - path: projectile
+        weight: 1
+      - path: projectile_control
+        weight: 1
+      - path: SphereGizmo001
+        weight: 1
+      - path: SphereGizmo001/eye_direction
+        weight: 1
+      - path: SphereGizmo001/feet
+        weight: 1
+      - path: SphereGizmo001/feet/tummy
+        weight: 1
+      - path: SphereGizmo001/feet/tummy/head
+        weight: 1
+      - path: SphereGizmo001/feet/tummy/head/eye_path
+        weight: 1
+      - path: SphereGizmo001/feet/tummy/head/eye_position
+        weight: 1
+      - path: the floor is here!
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 8
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
